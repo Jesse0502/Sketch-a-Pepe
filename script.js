@@ -1,5 +1,3 @@
-
-
 const container = document.querySelector(".container")
 const container1 = document.querySelector("#grid1")
 const container2 = document.querySelector("#grid2")
@@ -17,7 +15,6 @@ const container13 = document.querySelector("#grid13")
 const container14 = document.querySelector("#grid14")
 const container15 = document.querySelector("#grid15")
 const container16 = document.querySelector("#grid16")
-// const fullimg = document.querySelector(".fullimg")
 
 container1.classList.add("grid")
 container2.classList.add("grid")
@@ -35,18 +32,6 @@ container13.classList.add("grid")
 container14.classList.add("grid")
 container15.classList.add("grid")
 container16.classList.add("grid")
-
-
-// fullimg.addEventListener("click", (e) => {
-  
-    
-// })
-
-function roll(){
-    return Math.ceil(Math.random * 3)
-}
-
-
 
 for(let i = 0; i <= 15; i++){
     let cell = document.createElement("div")
